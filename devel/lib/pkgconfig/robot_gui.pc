@@ -1,0 +1,8 @@
+prefix=/home/gogochiou/NTHUproject_ws/devel
+
+Name: robot_gui
+Description: Description of robot_gui
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Drobot_main_gui_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/robot_main_gui_autogen/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -fPIC -std=gnu++11 -o CMakeFiles/robot_main_gui.dir/src/rviz_pannel/robot_main_gui.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/rviz_pannel/robot_main_gui.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/rviz_pannel/robot_main_gui.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Drobot_main_gui_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/robot_main_gui_autogen/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -fPIC -std=gnu++11 -o CMakeFiles/robot_main_gui.dir/robot_main_gui_autogen/mocs_compilation.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/build/robot_main_gui_autogen/mocs_compilation.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/robot_main_gui_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/invoke_camera.dir/src/invoke_camera.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/invoke_camera.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/invoke_camera.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/main_node.dir/src/main_node.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/main_node.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/main_node.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/gui_param_node_autogen/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++11 -o CMakeFiles/gui_param_node.dir/src/rviz_pannel/gui_param_node.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/rviz_pannel/gui_param_node.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/rviz_pannel/gui_param_node.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/gui_param_node_autogen/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++11 -o CMakeFiles/gui_param_node.dir/gui_param_node_autogen/mocs_compilation.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/build/gui_param_node_autogen/mocs_compilation.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gui_param_node_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Darm_state_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g -fPIC   -o CMakeFiles/arm_state.dir/src/arm_state.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/arm_state.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/arm_state.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Dplanner_state_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g -fPIC   -o CMakeFiles/planner_state.dir/src/planner_state.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/planner_state.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/planner_state.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Dscript_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g -fPIC   -o CMakeFiles/script.dir/src/script.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/script.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/script.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Drobot_state_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g -fPIC   -o CMakeFiles/robot_state.dir/src/robot_state.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/robot_state.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/robot_state.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Drobot_state_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g -fPIC   -o CMakeFiles/robot_state.dir/src/gui_state.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/gui_state.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/gui_state.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_main\\\" -Dgui_state_EXPORTS -I/home/gogochiou/NTHUproject_ws/src/robot_main/build/devel/include -I/home/gogochiou/NTHUproject_ws/src/robot_main/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g -fPIC   -o CMakeFiles/gui_state.dir/src/gui_state.cpp.o -c /home/gogochiou/NTHUproject_ws/src/robot_main/src/gui_state.cpp",
+  "file": "/home/gogochiou/NTHUproject_ws/src/robot_main/src/gui_state.cpp"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/gogochiou/NTHUproject_ws/src/robot_main/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+}
+]

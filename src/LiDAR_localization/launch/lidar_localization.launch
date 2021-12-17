@@ -1,0 +1,12 @@
+<launch>
+  <!-- <include file="$(find ydlidar_ros)/launch/G6./launch/nodes.launch" /> -->
+  <include file="$(find obstacle_detector)/launch/nodes.launch" />
+  <!-- landmark tf broadcaster (angle with ypr) -->
+  <node pkg="tf" type="static_transform_publisher" name="landmark1_broadcaster" args="-0.05 1 0 0 0 0 map landmark1 100" />
+  <node pkg="tf" type="static_transform_publisher" name="landmark2_broadcaster" args="2.05 0.25 0 0 0 0 map landmark2 100" />
+  <node pkg="tf" type="static_transform_publisher" name="landmark3_broadcaster" args="2.05 1.75 0 0 0 0 map landmark3 100" />
+  <!-- <node pkg="tf" type="static_transform_publisher" name="mapodom" args="0 0 0 0 0 0 map odom 100" /> -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d $(find LiDAR_localization)/rviz/lidar.rviz" /> -->
+  <!-- <node name="lidar_localization" pkg="LiDAR_localization" type="localization.py" output="screen"/> -->
+  <node name="lidar_localization" pkg="LiDAR_localization" type="localization.py" />
+</launch>

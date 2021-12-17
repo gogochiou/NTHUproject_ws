@@ -1,0 +1,11 @@
+<library path="lib/librobot_main_gui">
+
+  <class name="robot_main_gui"
+         type="robot_main::robot_gui"
+         base_class_type="rviz::Panel">
+    <description>
+      robot gui for NTHU graduate project.
+    </description>
+  </class>
+  
+</library>

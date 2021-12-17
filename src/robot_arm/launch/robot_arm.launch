@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="robot_arm" name="robot_arm" type="arm_newnew.py" output="screen" />
+</launch>

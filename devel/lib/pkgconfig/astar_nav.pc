@@ -1,0 +1,8 @@
+prefix=/home/gogochiou/NTHUproject_ws/devel
+
+Name: astar_nav
+Description: Description of astar_nav
+Version: 0.0.0
+Cflags: -I/home/gogochiou/NTHUproject_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

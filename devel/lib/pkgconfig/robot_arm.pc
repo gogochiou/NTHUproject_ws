@@ -1,0 +1,8 @@
+prefix=/home/gogochiou/NTHUproject_ws/devel
+
+Name: robot_arm
+Description: Description of robot_arm
+Version: 0.0.0
+Cflags: -I/home/gogochiou/NTHUproject_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

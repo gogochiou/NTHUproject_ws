@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mbf_msgs_generate_messages_py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryActionResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathActionResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryActionGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathActionFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryAction.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathActionGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathActionGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathActionFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseAction.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathActionResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_ExePathAction.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryActionFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseActionFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_RecoveryResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_GetPathAction.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseFeedback.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseActionGoal.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/_MoveBaseActionResult.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/srv/_CheckPose.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/srv/_CheckPoint.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/srv/_CheckPath.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/msg/__init__.py"
+  "/home/gogochiou/NTHUproject_ws/devel/lib/python2.7/dist-packages/mbf_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/mbf_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

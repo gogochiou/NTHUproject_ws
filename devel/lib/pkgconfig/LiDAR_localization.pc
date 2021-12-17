@@ -1,0 +1,8 @@
+prefix=/home/gogochiou/NTHUproject_ws/devel
+
+Name: LiDAR_localization
+Description: Description of LiDAR_localization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

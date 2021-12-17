@@ -1,0 +1,16 @@
+<launch>
+  <arg name="open_rviz" default="true"/>
+  <arg name="gui_send_script" default="true"/>
+
+  <node pkg="robot_main" type="gui_param_node" name="gui_param_node" output="screen" >
+    <param name="active" value="true"/>
+    <param name="camera_demo" value="false" />
+    <param name="gui_send_script" value="$(arg gui_send_script)" />
+    <param name="threeReleaseMission" value="true" />
+    <rosparam file="$(find robot_main)/param/script.yaml" command="load" />
+  </node>
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find robot_main)/rviz_config/robot_gui_test.rviz" />
+  </group>
+</launch>

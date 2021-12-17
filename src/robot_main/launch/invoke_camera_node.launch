@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="robot_main" type="invoke_camera" name="invoke_camera" output="screen" />
+</launch>

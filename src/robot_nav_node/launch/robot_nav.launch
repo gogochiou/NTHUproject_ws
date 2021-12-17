@@ -1,0 +1,66 @@
+<launch>
+<!-- Arguments -->
+  <!-- <arg name="map_file" default="$(find robot_nav_node)/map/map_simplify/new_map.yaml"/> -->
+  <!-- <arg name="map_file" default="$(find robot_nav_node)/map/map_empty3/new_map.yaml"/> -->
+  <arg name="map_file" default="$(find robot_nav_node)/map/map_obstacle3/new_map.yaml"/>
+  <arg name="open_rviz" default="true"/>
+  <arg name="move_forward_only" default="false"/>
+  <arg name="init_x_" default="0.25" />
+  <arg name="init_y_" default="0.25" /> 
+  <!-- <arg name="init_x_" default="0.5" />
+  <arg name="init_y_" default="0.5" />  -->
+  <arg name="init_yaw_" default="0.0" /> 
+  <!-- 1.5707963 -->
+
+<!-- Static TF -->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster"  args="0 0 0 0 0 0 map odom 100"/> -->
+  <!-- <node name="base_to_laser" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 -0.044 0.999 base_footprint laser_frame"/> -->
+
+<!--Publish Odometry-->
+  <node pkg="robot_nav_node" name = "odom_integral_node" type = "odom_integral_node"  output="screen">
+    <param name="init_x" value="$(arg init_x_)"/>
+    <param name="init_y" value="$(arg init_y_)"/>
+    <param name="init_yaw" value="$(arg init_yaw_)"/>
+  </node>
+  <!-- <node pkg="robot_nav_node" name = "odom_node" type = "odom_node"  output="screen">
+    <param name="init_x" value="$(arg init_x_)"/>
+    <param name="init_y" value="$(arg init_y_)"/>
+    <param name="init_yaw" value="$(arg init_yaw_)"/>
+  </node> -->
+
+<!--Change cmd_vel to txST1-->
+  <!-- <node pkg="robot_nav_node" name = "planner_to_tx" type = "planner_to_tx"  output="screen">
+    <param name="init_x" value="$(arg init_x_)"/>
+    <param name="init_y" value="$(arg init_y_)"/>
+    <param name="init_yaw" value="$(arg init_yaw_)"/>
+  </node> -->
+  <!-- <node pkg="robot_nav_node" name = "planner_to_ST" type = "planner_to_ST"  output="screen">
+    <param name="init_x" value="$(arg init_x_)"/>
+    <param name="init_y" value="$(arg init_y_)"/>
+    <param name="init_yaw" value="$(arg init_yaw_)"/>
+  </node> -->
+
+<!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+
+<!-- Astar and Pure pursuit -->
+  <node pkg="astar_nav" name="astar" type="astar.py"/>
+  <node pkg="astar_nav" name="omni_pathTracker" type="omni_pathTracker.py" output="screen"/>
+
+<!-- move_base -->
+  <!-- <include file="$(find robot_nav_node)/launch/move_base.launch">
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include> -->
+
+<!-- LiDAR -->
+  <include file="$(find LiDAR_localization)/launch/lidar_localization.launch" />
+
+<!-- EKF -->
+  <include file="$(find robot_localization)/launch/ekf_template.launch" />
+
+<!-- rviz -->
+  <!-- <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find robot_nav_node)/rviz_config/robot_nav.rviz" />
+  </group> -->
+
+</launch>

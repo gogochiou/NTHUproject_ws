@@ -1,0 +1,21 @@
+<launch>
+  <arg name="if_gui_send_script" default="true" />
+  <node pkg="robot_main" type="main_node" name="main_node" output="screen">
+    <param name="read_excel" value="fasle" />
+    <param name="use_gui" value="$(arg if_gui_send_script)" />
+    <rosparam file="$(find robot_main)/param/script.yaml" command="load" />
+  </node>
+  <!-- <node pkg="robot_main" type="invoke_camera" name="invoke_camera" output="screen" /> -->
+
+  <!-- call gui and rviz -->
+  <include file="$(find robot_main)/launch/robot_gui.launch">
+    <arg name="open_rviz" value="false" />
+    <arg name="gui_send_script" value="$(arg if_gui_send_script)"/>
+  </include>
+
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser4"
+  args="0.0 0.0 0.0 0.0 0.0 -0.044 0.999 /base_footprint /laser_frame 40" /> -->
+
+  <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find robot_main)/rviz_config/robot_gui_final.rviz" />
+  
+</launch>

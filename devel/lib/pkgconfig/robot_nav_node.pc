@@ -1,0 +1,8 @@
+prefix=/home/gogochiou/NTHUproject_ws/devel
+
+Name: robot_nav_node
+Description: Description of robot_nav_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_filters nav_msgs tf2 tf2_geometry_msgs tf2_msgs tf2_ros
