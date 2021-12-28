@@ -38,6 +38,27 @@
 
 * 主程式與GUI
 
-    > :heavy_check_mark: robot_main <br>
-    > :x: robot_gui
+    > :heavy_check_mark: **[robot_main](https://github.com/gogochiou/NTHUproject_ws/tree/main/src/robot_main)** <br>
+    > :x: **[robot_gui](https://github.com/gogochiou/NTHUproject_ws/tree/main/src/robot_gui)**
+
+    * robot_main
+
+        `&emsp;&emsp;作為 **agent** 管理 **navigation** 以及 **arm** 這兩個系統運行的工作。負責告知後兩者執行的任務，並藉由回傳的資訊得知運作情形。`
+        
+        此部分包含三個重要程式 :
+
+        1. rviz_panel plugin (gui)
+            
+            > 使用 **QT** 函式庫，因為 **rviz** 也是建基於 **QT** 的，我們可以使用 **plugin** 的方式，將自定義的介面( 或 **gui** )放入 **rviz** 中。
+            
+            圖形化介面可幫助我們知道程式運行的資訊，並且也可以操作介面上的按鍵，幫助我們快速地發布指令給程式。
+
+        2. main node
+
+            主要管理 **navigation** 和 **arm** 的程式。
+
+        3. invoke_camera
+
+            此節點作用為在機器人運行到特定情形時，喚醒pcl.launch，開啟顏色辨識的節點。因pcl節點放置於Nano上，所以invoke_camera也必須運行於Nano上(較簡單處理)。
+
 
