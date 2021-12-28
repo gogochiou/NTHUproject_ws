@@ -38,12 +38,13 @@
 
 * 主程式與GUI
 
-    > :heavy_check_mark: **[robot_main](https://github.com/gogochiou/NTHUproject_ws/tree/main/src/robot_main)** <br>
-    > :x: **[robot_gui](https://github.com/gogochiou/NTHUproject_ws/tree/main/src/robot_gui)**
+    > **package :** <br>
+    > &emsp;:heavy_check_mark: **[robot_main](https://github.com/gogochiou/NTHUproject_ws/tree/main/src/robot_main)** <br>
+    > &emsp;:x: **[robot_gui](https://github.com/gogochiou/NTHUproject_ws/tree/main/src/robot_gui)**
 
     * robot_main
 
-        `&emsp;&emsp;作為 **agent** 管理 **navigation** 以及 **arm** 這兩個系統運行的工作。負責告知後兩者執行的任務，並藉由回傳的資訊得知運作情形。`
+        &emsp;&emsp;作為 **agent** 管理 **navigation** 以及 **arm** 這兩個系統運行的工作。負責告知後兩者執行的任務，並藉由回傳的資訊得知運作情形。
         
         此部分包含三個重要程式 :
 
@@ -59,6 +60,10 @@
 
         3. invoke_camera
 
-            此節點作用為在機器人運行到特定情形時，喚醒pcl.launch，開啟顏色辨識的節點。因pcl節點放置於Nano上，所以invoke_camera也必須運行於Nano上(較簡單處理)。
+            此節點作用為在機器人運行到特定情形時，喚醒 **pcl.launch** ，開啟顏色辨識的節點。因 **pcl** 節點放置於 **Nano** 上，所以 **invoke_camera** 也必須運行於 **Nano** 上 ( 較簡單處理 )。
+    
+    * robot_gui **( 恩對，他目前沒用! )**
+
+        因為考慮到 **rviz_panel** 的 **plugin** 程式只有一個，單獨分離成一個 **pkg** 有點冗，應該算是依附於 **main** 的工具。此 **GUI** 的 **pkg** 本來是想撰寫建基於 **kivyMD** 之上的圖形化介面程式，但剛起步就胎死腹中，看未來有沒有機會...，或是之後會改成 **QT** ，畢竟個人比較常寫 **C++** ，且 **python** 的版本問題我不太會處理。
 
 
