@@ -6,7 +6,7 @@
 
 ---
 
-## :grinning:基本使用
+## 基本使用
 
 * **Nano** ( 機器人搭載的微電腦 )
     * 開啟 **Lidar 、 Realsense 、 通訊 、 其他子程式**
@@ -15,7 +15,7 @@
         roslaunch robot_main nano.launch
         ```
 
-* 本機電腦
+* 本機電腦 (個人配置 **Master** 於本機電腦)
     * 開啟 **main** 、 **rviz & gui** 
 
         ```
@@ -33,4 +33,11 @@
         ```
         roslaunch robot_arm robot_arm.launch
         ```
+
+## **Package** 概略介紹
+
+* 主程式與GUI
+
+    > :heavy_check_mark: robot_main <br>
+    > :x: robot_gui
 
